@@ -1,0 +1,72 @@
+
+.left-div2{
+  height: 500px; /* Adjust the height as needed */
+}  
+  /* Add a scroll bar to the left-side div */
+.left-div-scroll {
+    overflow-y: auto; /* Enable vertical scrollbar if content exceeds the height */
+  }
+
+  /* Add your chatbot style here */
+  .chat-window {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 1000;
+  }
+  
+  
+  .chat-body {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+
+  .ccc{margin-top: -20px;
+    height: 50px;
+  }
+  
+  .chat-input {
+    width: calc(100% - 100px);
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .send-button {
+    width: 70px;
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Message box styles */
+  .message {
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    max-width: 70%;
+  }
+  
+  .message.bot {
+    background-color: #cce5ff;
+    margin-right: auto;
+  }
+  
+  .message.user {
+    background-color: #ffc9e7;
+    margin-left: auto;
+  }  
+
+  .sized{
+    width: 600px;
+  }
